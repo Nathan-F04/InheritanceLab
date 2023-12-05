@@ -8,9 +8,9 @@ public class Person {
        private String name,address,telNumber;
     //Constructors
     public Person() {
-        this.name = "John";
-        this.address = "Galway";
-        this.telNumber = "0851119443";
+        this.name = "";
+        this.address = "";
+        this.telNumber = "";
     }
 
     public Person(String name, String address, String telNumber) {
@@ -46,10 +46,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 ", telNumber='" + telNumber + '\'' +
-                '}';
+                ',';
     }
 }
